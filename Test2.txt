@@ -1,0 +1,15 @@
+Mode  Time  Red  Green  Blue
+M     1     129   122   111
+M     2     129   122   111
+M     3     130   123   111
+Done with data collection
+Returning to main menu
+
+To change output to a file, press o
+To return to this screen press h
+To set gain value press g
+To run color sensor press r
+To reset file output, type reset
+To view current settings, press v
+To reset all settings, type resetAll
+To set remove all unwanted lines from file, press c
