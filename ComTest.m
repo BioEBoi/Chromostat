@@ -6,7 +6,7 @@ typeinfo(arg_input)
 
 x = cell2mat(arg_input) * 2;
 
-typeinfo(x);
+typeinfo(x)
 
 print(x);
 
