@@ -1,4 +1,4 @@
-#!/usr/bin/octave -qf --no-window-system 
+#!/usr/bin/octave -qfw -silent
 
 printf("Hello World");
 
