@@ -10,7 +10,7 @@ typeinfo(x)
 
 x = int2str(x);
 
-typeinfo(x);
+typeinfo(x)
 
 printf(x);
 
