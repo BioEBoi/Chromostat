@@ -1,4 +1,4 @@
-#!/usr/bin/octave -qf -silent
+#!/usr/bin/octave -qfw
 
 # now update
 
