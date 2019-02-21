@@ -3,9 +3,7 @@
 
 arg_input = argv();
 
-num = str2double(arg_input);
-
-x = num*2;
+x = arg_input*2;
 
 print(x);
 
