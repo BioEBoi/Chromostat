@@ -3,7 +3,7 @@
 
 arg_input = argv();
 
-num = str2double(arg_input{1});
+num = str2double(arg_input);
 
 x = num*2;
 
