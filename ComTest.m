@@ -8,9 +8,5 @@ x = cell2mat(arg_input) * 2;
 
 typeinfo(x)
 
-x = int2str(x);
-
-typeinfo(x)
-
-printf(x);
+printf('%o',x);
 
