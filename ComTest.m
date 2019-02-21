@@ -1,4 +1,4 @@
-#!/usr/bin/octave -qfw
+#!/usr/bin/octave -qf -w
 
 printf("Hello World");
 
