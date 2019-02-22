@@ -4,9 +4,10 @@ arg_input = argv();
 
 arg_input
 
-arg_input{1,1}
+ y = arg_input{1,1}
 
-x = arg_input{1,1} .+ 5
+ x = y + 5
+
 
 
 
