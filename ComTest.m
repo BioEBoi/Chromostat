@@ -4,11 +4,11 @@ arg_input = argv();
 
 arg_input
 
- y = str2double(arg_input{1,1})
+ y = str2double(arg_input)
  
  typeinfo(y)
 
- x = y + 5
+ x = y .+ 5
 
 
 
