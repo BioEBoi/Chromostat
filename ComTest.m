@@ -2,11 +2,11 @@
 
 arg_input = argv();
 
-typeinfo(arg_input)
+printf("This is the input type",typeinfo(arg_input))
 
-x = cell2mat(arg_input{1}) .* 2;
+x = cell2mat(arg_input) .* 2;
 
-typeinfo(x)
+printf("this is x's type",typeinfo(x))
 
 printf('%o',x);
 
