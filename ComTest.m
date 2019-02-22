@@ -1,4 +1,4 @@
-#!/usr/bin/octave -qf --no-gui
+#!/usr/bin/octave -qf --no-gui-libs
 
 arg_input = argv();
 
