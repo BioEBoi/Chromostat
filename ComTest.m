@@ -4,7 +4,7 @@ arg_input = argv();
 
 arg_input
 
- y = arg_input{1,1}
+ y = str2double(arg_input{1,1})
  
  typeinfo(y)
 
