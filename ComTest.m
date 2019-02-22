@@ -2,9 +2,7 @@
 
 arg_input = argv();
 
-y = str2double(arg_input);
-
- x = y .+ 5;
+ x = str2double(arg_input) + 5;
  
  disp(x);
 
