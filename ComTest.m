@@ -2,7 +2,7 @@
 
 arg_input = argv();
 
- x = str2double(arg_input) + 5;
+ x = str2double(arg_input) + 1000000;
  
  disp(x);
 
