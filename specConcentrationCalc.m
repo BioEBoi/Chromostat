@@ -16,5 +16,5 @@ size(SumOfSamples)
 size(BaseLine)
 BaseLine
 
- relativeConcentration = BaseLine/(SumOfSamples)
+ relativeConcentration = BaseLine\(SumOfSamples)
 
