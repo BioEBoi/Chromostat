@@ -4,7 +4,7 @@ clear all, clc, close all;
 
 
 arg_list = argv();
-arg_list_matrix = str2num(cell2mat(arg_list)).'
+arg_list_matrix = str2num(cell2mat(arg_list))
 ##typeinfo(arg_list_matrix)
 ##InputSize = size(arg_list_matrix)
 
