@@ -24,6 +24,5 @@ BaseLine = (arg_list_matrix((2*length(arg_list_matrix)/3) + 1:end));
 ##size(SumOfSamples)
 ##size(BaseLine)
 
-  
- relativeConcentration = BaseLine/(SumOfSamples)
+BaseLine/(SumOfSamples)
 
