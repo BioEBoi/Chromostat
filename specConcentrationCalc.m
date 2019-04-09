@@ -12,6 +12,8 @@ BaseLine = cell2mat(arg_list((2*length(arg_list)/3) + 1:end)).';
 BaseLine
 SumOfSamples = [sampleOne;sampleTwo];
 SumOfSamples
+size(SumOfSamples)
+size(BaseLine)
 
  relativeConcentration = BaseLine/(SumOfSamples)
 
