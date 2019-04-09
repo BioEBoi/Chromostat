@@ -14,6 +14,7 @@ SumOfSamples = [sampleOne;sampleTwo];
 SumOfSamples
 size(SumOfSamples)
 size(BaseLine)
+BaseLine
 
  relativeConcentration = BaseLine/(SumOfSamples)
 
