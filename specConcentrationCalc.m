@@ -9,12 +9,14 @@ arg_list_matrix = str2num(cell2mat(arg_list))
 ##InputSize = size(arg_list_matrix)
 
 sampleOne = (arg_list_matrix(1:length(arg_list)/3))
-##SampleOneSize = size(sampleOne)
+SampleOneSize = size(sampleOne)
+
 sampleTwo = (arg_list_matrix((length(arg_list_matrix)/3) + 1:(2*length(arg_list_matrix))/3))
 SampleTwoSize = size(sampleTwo)
-sampleTwo
+
 SumOfSamples = [sampleOne; sampleTwo]
 SizeOfSum = size(SumOfSamples)
+
 BaseLine = (arg_list_matrix((2*length(arg_list_matrix)/3) + 1:end))
 BaseLineSize = size(BaseLine)
 
