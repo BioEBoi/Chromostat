@@ -8,5 +8,5 @@ sampleTwo = arg_list((length(arg_list)/3):(2*length(arg_list))/3);
 BaseLine = arg_list((2*length(arg_list)/3):end);
 SumOfSamples = [sampleOne;sampleTwo];
 
- relativeConcentration = BaseLine/SumOfSamples
+ relativeConcentration = BaseLine* inv(SumOfSamples)
 
