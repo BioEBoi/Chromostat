@@ -18,7 +18,7 @@ sampleOne = (arg_list_matrix(length(arg_list_matrix)/4) + 1:(2*length(arg_list_m
 sampleTwo = (arg_list_matrix(2*length(arg_list_matrix)/4) + 1: 3 * length(arg_list_matrix)/4);
 ##SampleOneSize = size(sampleOne)
 
-mixedSample = (arg_list_matrix(3*length(arg_list_matrix)/4) + 1: end );
+mixedSample = (arg_list_matrix(3*length(arg_list_matrix)/4) + 1: end);
 
 absorbanceOne = log10(baseLine./sampleOne).';
 
