@@ -30,8 +30,8 @@ absorbanceMixed = log10(baseLine./mixedSample).';
 sampleData = [absorbanceOne, absorbanceTwo];
 ##SizeOfSum = size(SumOfSamples)
 
-x = absorbanceMixed\sampleData;
+x = absorbanceMixed\sampleData
 
-Conc1 = (x(1)/sum(x));
-Conc2 = (1 - Conc1) * 100
-Conc1 = Conc1 * 100
+##Conc1 = (x(1)/sum(x));
+##Conc2 = (1 - Conc1) * 100
+##Conc1 = Conc1 * 100
