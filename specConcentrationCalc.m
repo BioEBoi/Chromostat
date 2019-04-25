@@ -31,9 +31,12 @@ absorbanceMixed = log10(baseLine./mixedSample).';
 sampleData = [absorbanceOne , absorbanceTwo];
 SizeOfSum = size(sampleData)
 
-printf("working on concentrations")
+printf("working on concentrations \n")
 
 x = absorbanceMixed\sampleData
+
+Conc1 = x(1) / (x(1) + x(2))
+Conc2 = 1 - Conc1
 
 ##Conc1 = (x(1)/sum(x));
 ##Conc2 = (1 - Conc1) * 100
