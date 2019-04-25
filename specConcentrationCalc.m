@@ -9,7 +9,7 @@ arg_list_matrix = str2num(cell2mat(arg_list));
 ##InputSize = size(arg_list_matrix)
 
 
-baseLine = arg_list_matrix(1: arg_list_matrix(end) / 4);
+baseLine = arg_list_matrix(1: end/4);
 ##BaseLineSize = size(BaseLine)
 
 sampleOne = (arg_list_matrix(end/4) + 1 : (2 * arg_list_matrix(end) / 4));
