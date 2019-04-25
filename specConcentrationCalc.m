@@ -38,7 +38,8 @@ x = absorbanceMixed\sampleData
 Conc1 = x(1) / (x(1) + x(2));
 Conc2 = 1 - Conc1;
 
-printf("sample one has concentration " , Conc1)
+printf("sample one has concentration " , Conc1,"\n")
+
 printf("sampel two has concentration " , Conc2)
 
 ##Conc1 = (x(1)/sum(x));
