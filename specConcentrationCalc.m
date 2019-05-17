@@ -24,12 +24,12 @@ absorbanceOne = log10(baseLine./sampleOne).';
 ##size(absorbanceOne);
 
 absorbanceTwo = log10(baseLine./sampleTwo).';
-
+  
 absorbanceMixed = log10(baseLine./mixedSample).';
 
 sampleData = [absorbanceOne, absorbanceTwo];
 
-x = absorbanceMixed\sampleData
+x = absorbanceMixed\sampleData;
 
 
 
