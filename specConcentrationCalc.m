@@ -23,13 +23,15 @@ mixedSample = arg_list_matrix(3 * end/4 + 1: end);
 absorbanceOne = log10(baseLine./sampleOne).';
 ##size(absorbanceOne);
 
-absorbanceTwo = log10(baseLine./sampleTwo).'
+absorbanceTwo = log10(baseLine./sampleTwo).';
 
 absorbanceMixed = log10(baseLine./mixedSample).'
 
-
-sampleData = [absorbanceOne , absorbanceTwo]
-SizeOfSum = size(sampleData)
+sampleData = [absorbanceOne, absorbanceTwo]
 
 x = absorbanceMixed\sampleData
+
+
+
+
 
