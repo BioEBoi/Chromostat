@@ -29,7 +29,7 @@ absorbanceMixed = log10(baseLine./mixedSample).';
 
 
 sampleData = [absorbanceOne , absorbanceTwo];
-SizeOfSum = size(sampleData);
+SizeOfSum = size(sampleData)
 
 x = absorbanceMixed\sampleData
 
