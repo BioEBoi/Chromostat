@@ -29,7 +29,7 @@ absorbanceMixed = log10(baseLine./mixedSample).';
 
 sampleData = [absorbanceOne, absorbanceTwo];
 
-x = absorbanceMixed\sampleData;
+x = absorbanceMixed\sampleData
 
 
 
