@@ -8,22 +8,22 @@ arg_list_matrix = str2num(cell2mat(arg_list));
 InputSize = size(arg_list_matrix);
 
 
-baseLine = arg_list_matrix(1: end/4);
+baseLine = arg_list_matrix(1: end/4)
 BaseLineSize = size(baseLine)
 
-sampleOne = arg_list_matrix(end/4 + 1: 2 * end/4);
+sampleOne = arg_list_matrix(end/4 + 1: 2 * end/4)
 ##SampleTwoSize = size(sampleTwo)
 
 sampleTwo = arg_list_matrix(2 * end/4 + 1: 3 * end/4)
 
 ##SampleOneSize = size(sampleOne)
 
-mixedSample = arg_list_matrix(3 * end/4 + 1: end);
+mixedSample = arg_list_matrix(3 * end/4 + 1: end)
 
-absorbanceOne = log10(baseLine./sampleOne).';
+absorbanceOne = log10(baseLine./sampleOne).'
 ##size(absorbanceOne);
 
-absorbanceTwo = log10(baseLine./sampleTwo).';
+absorbanceTwo = log10(baseLine./sampleTwo).'
 
 absorbanceMixed = log10(baseLine./mixedSample).'
 
