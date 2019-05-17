@@ -9,7 +9,7 @@ InputSize = size(arg_list_matrix);
 
 
 baseLine = arg_list_matrix(1: end/4);
-##BaseLineSize = size(baseLine);
+BaseLineSize = size(baseLine)
 
 sampleOne = arg_list_matrix(end/4 + 1: 2 * end/4);
 ##SampleTwoSize = size(sampleTwo)
