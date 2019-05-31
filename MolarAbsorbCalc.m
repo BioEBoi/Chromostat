@@ -1,10 +1,10 @@
 #! /bin/octave -qf
 
 clear all, clc, close all;
-#arg_list = [3 1 2 3 1 2 3 1 2 3 1 2]
-arg_list = argv();
-arg_list_matrix = str2num(cell2mat(arg_list))
-#arg_list_matrix = [3 1 2 3 4 5 6 7 8 9]
+
+#arg_list = argv();
+#arg_list_matrix = str2num(cell2mat(arg_list))
+arg_list_matrix = [3 1 2 3 4 5 6 7 8 9]
 
 colSize = arg_list_matrix(1)
 
@@ -17,7 +17,7 @@ epValTwo = arg_list_matrix(matrixStart + colSize:end).'
 
 epValTotal = [epValOne,epValTwo]
 
-concentrations = opticalDensity/epValTotal
+concentrations = opticalDensity\epValTotal
 
 
 
