@@ -17,6 +17,7 @@ epValTwo = arg_list_matrix(matrixStart + colSize + 1,end).';
 
 epValTotal = [epValOne,epValTwo];
 
+printf("this is working")
 concentrations = opticalDensity/epValTotal
 
 
