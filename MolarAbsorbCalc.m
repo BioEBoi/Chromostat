@@ -1,8 +1,9 @@
 #! /bin/octave
 
 clear all, clc, close all;
+disp("octave is working")
 
-
+#{
 arg_list = argv();
 arg_list_matrix = str2num(cell2mat(arg_list));
 
@@ -19,6 +20,9 @@ epValTotal = [epValOne,epValTwo];
 
 printf("this is working")
 concentrations = opticalDensity/epValTotal
+#}
+
+
 
 
 
