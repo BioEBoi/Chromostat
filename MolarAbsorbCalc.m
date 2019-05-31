@@ -1,4 +1,4 @@
-#! /bin/octave -qf
+#! /bin/octave
 
 clear all, clc, close all;
 
