@@ -2,6 +2,8 @@
 
 clear all, clc, close all;
 
+#{
+
 arg_list = argv();
 arg_list_matrix = str2num(cell2mat(arg_list))
 
@@ -16,8 +18,9 @@ epValTwo = arg_list_matrix(matrixStart + colSize + 1,end).'
 
 epValTotal = [epValOne,epValTwo];
 
-printf("this is working")
 concentrations = opticalDensity/epValTotal
+
+#}
 
 
 
