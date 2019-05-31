@@ -3,7 +3,7 @@
 clear all, clc, close all;
 
 arg_list = argv();
-arg_list_matrix = str2num(cell2mat(arg_list)).'
+arg_list_matrix = str2num(cell2mat(arg_list))
 #arg_list_matrix = [3 1 2 3 4 5 6 7 8 9]
 
 colSize = arg_list_matrix(1)
