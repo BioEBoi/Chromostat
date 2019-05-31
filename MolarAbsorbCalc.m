@@ -10,7 +10,7 @@ colSize = arg_list_matrix(1);
 
 opticalDensity = arg_list_matrix(2,colSize + 1).';
 
-matrixStart = length(arg_list_matrix) - 1 - colSize;
+matrixStart = 2 + length(colSize);
 
 epValOne = arg_list_matrix(matrixStart,matrixStart + colSize).';
 epValTwo = arg_list_matrix(matrixStart + colSize + 1,end).';
