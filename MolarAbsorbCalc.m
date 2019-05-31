@@ -2,9 +2,6 @@
 
 clear all, clc, close all;
 
-disp("octave started")
-#{
-
 arg_list = argv();
 arg_list_matrix = str2num(cell2mat(arg_list))
 
@@ -21,7 +18,7 @@ epValTotal = [epValOne,epValTwo];
 
 concentrations = opticalDensity/epValTotal
 
-#}
+
 
 
 
