@@ -2,6 +2,7 @@
 
 clear all, clc, close all;
 
+disp("octave started")
 #{
 
 arg_list = argv();
